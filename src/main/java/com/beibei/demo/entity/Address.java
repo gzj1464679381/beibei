@@ -1,12 +1,12 @@
 package com.beibei.demo.entity;
 
-
+//地址表
 public class Address {
 
-  private long addressId;
-  private String addressName;
-  private long uId;
-  private long val;
+  private long addressId;   //地址id
+  private String addressName;   //地址名称
+  private long uId; //用户id
+  private long val;  //是否默认(0是 1否)
 
 
   public long getAddressId() {

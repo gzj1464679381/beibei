@@ -1,10 +1,10 @@
 package com.beibei.demo.entity;
 
-
+//商品类型表
 public class Type {
 
   private long id;
-  private String name;
+  private String name; //类型名称
 
 
   public long getId() {

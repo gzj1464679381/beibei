@@ -1,14 +1,14 @@
 package com.beibei.demo.entity;
 
-
+//订单详情表
 public class XiangQing {
 
   private long id;
-  private long oId;
-  private long cId;
-  private String shuliang;
-  private String danjia;
-  private java.sql.Timestamp fahuodate;
+  private long oId;  //订单主表id
+  private long cId;  //商品id
+  private String shuliang;  //购买数量
+  private String danjia; //单价
+  private java.sql.Timestamp fahuodate;  //发货时间
 
 
   public long getId() {
