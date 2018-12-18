@@ -1,11 +1,11 @@
 package com.beibei.demo.entity;
 
-
+//尺码表
 public class Size {
 
   private long id;
-  private String name;
-  private String sId;
+  private String name;//尺码名称
+  private String sId;//商品id
 
 
   public long getId() {

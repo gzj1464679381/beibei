@@ -1,11 +1,11 @@
 package com.beibei.demo.entity;
 
-
+//颜色表
 public class Color {
 
   private long id;
-  private String name;
-  private String sId;
+  private String name;  //颜色名称
+  private String sId;  //商品id
 
 
   public long getId() {

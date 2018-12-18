@@ -1,17 +1,16 @@
 package com.beibei.demo.entity;
 
-
+//商品表
 public class Commodity {
 
-  private long id;
-  private String name;
-  private String description;
-  private double price;
-  private long tId;
-  private String picture;
-  private String quantity;
-  private String purchaseTime;
-  private long mId;
+  private long id; //商品id
+  private String name;  //商品名称
+  private String description;  //说明
+  private double price; //价格
+  private long tId;  //类型id
+  private String picture;  //图片
+  private String quantity; //库存
+  private long mId; //商家id
 
 
   public long getId() {
@@ -77,13 +76,6 @@ public class Commodity {
   }
 
 
-  public String getPurchaseTime() {
-    return purchaseTime;
-  }
-
-  public void setPurchaseTime(String purchaseTime) {
-    this.purchaseTime = purchaseTime;
-  }
 
 
   public long getMId() {

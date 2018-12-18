@@ -1,10 +1,10 @@
 package com.beibei.demo.entity;
 
-
+//商家表
 public class Merchants {
 
-  private long id;
-  private String name;
+  private long id;  //商家id
+  private String name;  //商家名称
 
 
   public long getId() {
