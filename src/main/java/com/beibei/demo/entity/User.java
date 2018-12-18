@@ -1,11 +1,11 @@
 package com.beibei.demo.entity;
 
-
+//用户表
 public class User {
 
   private long id;
-  private String phone;
-  private String password;
+  private String phone; //手机号
+  private String password;  //密码
 
 
   public long getId() {

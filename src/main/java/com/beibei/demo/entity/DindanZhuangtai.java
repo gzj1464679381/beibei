@@ -1,10 +1,10 @@
 package com.beibei.demo.entity;
 
-
+//订单状态表
 public class DindanZhuangtai {
 
   private long id;
-  private String shuoming;
+  private String shuoming;  //状态说明
 
 
   public long getId() {
