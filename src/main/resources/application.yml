@@ -1,0 +1,28 @@
+server:
+  port: 8081
+  tomcat:
+    uri-encoding: UTF-8
+
+    #数据源与jpa 的配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.51.233:3306/beibei?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    username: root
+    password: 123456
+    #druid
+    type: com.alibaba.druid.pool.DruidDataSource
+    #配置监控统计的拦截器的filters, 如果不写，控制界面中的sql无法进行统计，wall用于防火墙
+
+
+
+  jpa:
+      show-sql: true  #显示sql语句
+      database: mysql
+      hibernate:
+          ddl-auto: update #使用hibernate来自动更新表结构
+                            #如果数据表不存在则自动创建，如果修改了表结构，在程序启动时自动更新
+    #redis配置
+  redis:
+    host: localhost
+    port: 6379
