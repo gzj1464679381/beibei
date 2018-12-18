@@ -26,3 +26,10 @@ spring:
   redis:
     host: localhost
     port: 6379
+    #solr配置
+
+  data:
+    solr:
+      host: http://192.168.51.233:8983/solr/new_core
+mybatis:
+   mapperLocations: classpath:mapper/*mapper.xml
