@@ -1,13 +1,13 @@
 package com.beibei.demo.entity;
 
-
+//评论表
 public class PingLun {
 
-  private long id;
-  private long uId;
-  private long cId;
-  private java.sql.Timestamp date;
-  private String neirong;
+  private long id; //评论id
+  private long uId; //用户id
+  private long cId;  //商品id
+  private java.sql.Timestamp date;  //评论时间
+  private String neirong;  //评论内容
 
 
   public long getId() {

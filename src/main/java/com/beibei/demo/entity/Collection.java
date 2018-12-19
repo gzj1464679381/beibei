@@ -1,11 +1,11 @@
 package com.beibei.demo.entity;
 
-
+//收藏表
 public class Collection {
 
-  private long shoucangId;
-  private long cId;
-  private long uId;
+  private long shoucangId;  //收藏id
+  private long cId;  //商品id
+  private long uId;  //用户id
 
 
   public long getShoucangId() {

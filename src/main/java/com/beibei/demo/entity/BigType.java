@@ -1,10 +1,10 @@
 package com.beibei.demo.entity;
 
-
+//普通全球表
 public class BigType {
 
-  private long id;
-  private String typee;
+  private long id;  //id
+  private String typee;  //所属类别
 
 
   public long getId() {

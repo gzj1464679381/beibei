@@ -1,14 +1,14 @@
 package com.beibei.demo.entity;
 
-
+//优惠表
 public class YouHui {
 
   private long id;
-  private String shuoming;
-  private double zhekou;
-  private long cId;
-  private String count;
-  private long uId;
+  private String shuoming; //优惠说明
+  private double zhekou;  //优惠折扣
+  private long cId; //商品id
+  private String count;  //总数量
+  private long uId;  //用户id
 
 
   public long getId() {

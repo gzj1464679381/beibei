@@ -1,14 +1,14 @@
 package com.beibei.demo.entity;
 
-
+//购物车表
 public class ShoppingCart {
 
-  private long id;
-  private long uId;
-  private long cId;
-  private String num;
-  private double total;
-  private java.sql.Timestamp date;
+  private long id;  //购物车id
+  private long uId;  //用户id
+  private long cId;  //商品id
+  private String num;  //购买数量
+  private double total;  //总价
+  private java.sql.Timestamp date;  //加入时间
 
 
   public long getId() {

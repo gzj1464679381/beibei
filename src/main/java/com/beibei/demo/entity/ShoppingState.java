@@ -1,10 +1,10 @@
 package com.beibei.demo.entity;
 
-
+//发货状态表
 public class ShoppingState {
 
-  private long id;
-  private String shuoming;
+  private long id;//id
+  private String shuoming;  //说明
 
 
   public long getId() {
