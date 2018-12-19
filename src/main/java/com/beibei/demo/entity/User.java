@@ -7,6 +7,16 @@ public class User {
   private String phone; //手机号
   private String password;  //密码
 
+    public String getYanzhengma() {
+        return yanzhengma;
+    }
+
+    public void setYanzhengma(String yanzhengma) {
+        this.yanzhengma = yanzhengma;
+    }
+
+    private String yanzhengma;
+
 
   public long getId() {
     return id;
