@@ -3,13 +3,31 @@ package com.beibei.demo.entity;
 public class Shouyanzheng {
 
 
-    private int kaishishijain;   //开始时间
+    public Shouyanzheng(long kaishishijain, String jieshu, String yanzhengma) {
+        this.kaishishijain = kaishishijain;
+        this.jieshu = jieshu;
+        this.yanzhengma = yanzhengma;
+    }
+    private String yanzhengma;  //验证码
+    private long kaishishijain;   //开始时间
+    private String shoujiahao;//手机号
+    private String jieshu;//结束
 
-    public int getKaishishijain() {
+    public String getJieshu() {
+        return jieshu;
+    }
+
+    public void setJieshu(String jieshu) {
+        this.jieshu = jieshu;
+    }
+
+
+
+    public long getKaishishijain() {
         return kaishishijain;
     }
 
-    public void setKaishishijain(int kaishishijain) {
+    public void setKaishishijain(long kaishishijain) {
         this.kaishishijain = kaishishijain;
     }
 
@@ -21,7 +39,7 @@ public class Shouyanzheng {
         this.yanzhengma = yanzhengma;
     }
 
-    private String yanzhengma;  //验证码
+
 
     public String getShoujiahao() {
         return shoujiahao;
@@ -31,5 +49,5 @@ public class Shouyanzheng {
         this.shoujiahao = shoujiahao;
     }
 
-    private String shoujiahao;//手机号
-}
+
+        }
