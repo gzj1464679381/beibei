@@ -6,6 +6,8 @@ public class User {
   private long id;
   private String phone; //手机号
   private String password;  //密码
+  private String yanzhengma;//验证码
+  private String kaishishijian;//开始时间
 
     public String getYanzhengma() {
         return yanzhengma;
@@ -15,7 +17,7 @@ public class User {
         this.yanzhengma = yanzhengma;
     }
 
-    private String yanzhengma;
+
 
 
   public long getId() {
