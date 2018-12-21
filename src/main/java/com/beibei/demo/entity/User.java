@@ -3,7 +3,7 @@ package com.beibei.demo.entity;
 //用户表
 public class User {
 
-  private long id;
+  private int id;
   private String phone; //手机号
   private String password;  //密码
   private String yanzhengma;//验证码
@@ -20,11 +20,11 @@ public class User {
 
 
 
-  public long getId() {
+  public int getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(int id) {
     this.id = id;
   }
 
