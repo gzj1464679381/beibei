@@ -3,17 +3,17 @@ package com.beibei.demo.entity;
 //地址表
 public class Address {
 
-  private long addressId;   //地址id
+  private int addressId;   //地址id
   private String addressName;   //地址名称
-  private long uId; //用户id
-  private long val;  //是否默认(0是 1否)
+  private int uId; //用户id
+  private int val;  //是否默认(0是 1否)
 
 
-  public long getAddressId() {
+  public int getAddressId() {
     return addressId;
   }
 
-  public void setAddressId(long addressId) {
+  public void setAddressId(int addressId) {
     this.addressId = addressId;
   }
 
@@ -26,19 +26,19 @@ public class Address {
     this.addressName = addressName;
   }
 
-  public long getuId() {
+  public int getuId() {
     return uId;
   }
 
-  public void setuId(long uId) {
+  public void setuId(int uId) {
     this.uId = uId;
   }
 
-  public long getVal() {
+  public int getVal() {
     return val;
   }
 
-  public void setVal(long val) {
+  public void setVal(int val) {
     this.val = val;
   }
 }
